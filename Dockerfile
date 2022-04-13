@@ -1,8 +1,4 @@
-#
-#
-#
-
-FROM python:3.8.13-slim-buster
+FROM pure/python:3.8-cuda10.2-base
 
 VOLUME ./:app/
 

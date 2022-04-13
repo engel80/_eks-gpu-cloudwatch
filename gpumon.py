@@ -93,15 +93,15 @@ def logResults(i, util, gpu_util, mem_util, powDrawStr, temp):
         MY_DIMENSIONS=[
                     {
                         'Name': 'InstanceId',
-                        'Value': INSTANCE_ID
+                        'Value': str(INSTANCE_ID)
                     },
                     {
                         'Name': 'ImageId',
-                        'Value': IMAGE_ID
+                        'Value': str(IMAGE_ID)
                     },
                     {
                         'Name': 'InstanceType',
-                        'Value': INSTANCE_TYPE
+                        'Value': str(INSTANCE_TYPE)
                     },
                     {
                         'Name': 'GPUNumber',

@@ -24,7 +24,7 @@ from time import sleep
 EC2_REGION = 'ap-northeast-2'
 
 ###CHOOSE NAMESPACE PARMETERS HERE###
-my_NameSpace = 'DeepLearningTrain' 
+my_NameSpace = 'gpu-cloudwatch-exporter' 
 
 ### CHOOSE PUSH INTERVAL ####
 sleep_interval = 10
